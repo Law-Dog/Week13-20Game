@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.moreCard, .enoughCard, .endGame {
+    height: 7vh;
+    width: 10%;
+    color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5%;
+}
+
+.moreCard {
+    background-color: rgb(38, 173, 38);
+}
+
+.enoughCard {
+    background-color: rgb(173, 33, 33);
+}
+
+.endGame {
+    background-color: rgb(182, 173, 50);
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-image:url(13Images/table.jpeg)
+}
+
+#card > img {
+    height: 30vh;
+}
